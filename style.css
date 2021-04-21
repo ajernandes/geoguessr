@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#map {
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+#pano {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#button1 {
+  height: 5%;
+  width: 5%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#button2 {
+  height: 5%;
+  width: 5%;
+  position:absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#submit {
+  height: 5%;
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+}
