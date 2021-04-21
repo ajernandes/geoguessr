@@ -10,9 +10,19 @@
     <div>
     </div>
     <div id="container">
-      <button id="button1" onclick="biggerMap()">Big map</button>
-      <button id="button2" onclick="smallerMap()">Hide map</button>
-      <button id="submit" onclick="submit()">Submit</button>
+      <div  id = "table"><table>
+        <tr><td><img id="arrow" src="arrow.png" id="submit"></img></td></tr>
+      <tr><td><button id="button1" onclick="biggerMap()">Big map</button></td></tr>
+      <tr><td><button id="button2" onclick="smallerMap()">Hide map</button></td></tr>
+      <tr><td><button id="submit" onclick="submit()">Submit</button></td></tr>
+      <tr><td><button id="submit" onclick="toStart()">To Start</button></td></tr>
+      </table>
+    </div>
+    <div id="results" style="display:none"></div>
+    <div id="resultstxt" style="display:none">
+        <h1 id="dist"></h1>
+        <h1 id="pts"></h1>
+    </div>
       <div id="pano"></div>
       <div id="map"></div>
     </div>
